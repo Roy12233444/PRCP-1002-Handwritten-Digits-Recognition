@@ -1,0 +1,11 @@
+{
+  "CNN Model 1": 0.991599977016449,
+  "CNN Model 2": 0.8996999859809875,
+  "Dense Model": 0.9818000197410583,
+  "Soft Voting": 0.9889000058174133,
+  "Stacking": 0.9908999800682068,
+  "Bagging": 0.8739,
+  "AdaBoost": 0.6356,
+  "XGBoost": 0.9503,
+  "Random Forest": 0.9396
+}

@@ -1,0 +1,9 @@
+{
+  "Normalization": true,
+  "Contrast Enhancement": false,
+  "Histogram Equalization": false,
+  "Edge Detection": false,
+  "Morphological Operations": false,
+  "Data Augmentation": false,
+  "Augmentation Factor": "N/A"
+}

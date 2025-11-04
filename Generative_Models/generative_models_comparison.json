@@ -1,0 +1,37 @@
+{
+  "DCGAN": {
+    "generator_params": 2330944,
+    "discriminator_params": 212865,
+    "type": "Adversarial",
+    "strengths": "Sharp images, stable training",
+    "use_case": "High-quality image generation"
+  },
+  "WGAN": {
+    "generator_params": 1030785,
+    "discriminator_params": 138561,
+    "type": "Adversarial (Wasserstein)",
+    "strengths": "Training stability, meaningful loss",
+    "use_case": "Stable GAN training"
+  },
+  "VAE": {
+    "generator_params": 139865,
+    "discriminator_params": 0,
+    "type": "Probabilistic",
+    "strengths": "Smooth latent space, interpretable",
+    "use_case": "Latent space exploration"
+  },
+  "cGAN": {
+    "generator_params": 2331944,
+    "discriminator_params": 222305,
+    "type": "Conditional Adversarial",
+    "strengths": "Controlled generation, class-specific",
+    "use_case": "Targeted content generation"
+  },
+  "StyleGAN": {
+    "generator_params": 1621825,
+    "discriminator_params": 0,
+    "type": "Style-based",
+    "strengths": "Style control, high quality",
+    "use_case": "Style transfer and control"
+  }
+}

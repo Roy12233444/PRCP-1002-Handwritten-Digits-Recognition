@@ -1,0 +1,27 @@
+{
+  "Baseline_CNN": {
+    "test_accuracy": 0.9909999966621399,
+    "test_loss": 0.027479760348796844,
+    "parameters": 156650
+  },
+  "CNN_SelfAttention": {
+    "test_accuracy": 0.9794999957084656,
+    "test_loss": 0.06691568344831467,
+    "parameters": 131338
+  },
+  "CNN_SE_Blocks": {
+    "test_accuracy": 0.9887999892234802,
+    "test_loss": 0.03655294328927994,
+    "parameters": 162278
+  },
+  "CNN_CBAM": {
+    "test_accuracy": 0.9902999997138977,
+    "test_loss": 0.03318466618657112,
+    "parameters": 162575
+  },
+  "Vision_Transformer": {
+    "test_accuracy": 0.9710999727249146,
+    "test_loss": 0.1033797487616539,
+    "parameters": 354378
+  }
+}

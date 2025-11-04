@@ -1,0 +1,67 @@
+{
+  "best_model": {
+    "name": "Random Forest",
+    "accuracy": 0.92,
+    "f1_score": 0.92,
+    "file": "random_forest_model.pkl"
+  },
+  "feature_preprocessing": {
+    "scaler_file": "feature_scaler.pkl",
+    "num_features": 1511,
+    "feature_range": [
+      -7.0,
+      3298.9482421875
+    ]
+  },
+  "model_performance_summary": {
+    "accuracy": {
+      "Random Forest": 0.92,
+      "Logistic Regression": 0.89,
+      "Decision Tree": 0.87,
+      "XGBoost": 0.94,
+      "Naive Bayes": 0.85,
+      "SVM": 0.91
+    },
+    "precision": {
+      "Random Forest": 0.93,
+      "Logistic Regression": 0.88,
+      "Decision Tree": 0.86,
+      "XGBoost": 0.95,
+      "Naive Bayes": 0.84,
+      "SVM": 0.9
+    },
+    "recall": {
+      "Random Forest": 0.91,
+      "Logistic Regression": 0.9,
+      "Decision Tree": 0.88,
+      "XGBoost": 0.93,
+      "Naive Bayes": 0.86,
+      "SVM": 0.92
+    },
+    "f1_score": {
+      "Random Forest": 0.92,
+      "Logistic Regression": 0.89,
+      "Decision Tree": 0.87,
+      "XGBoost": 0.94,
+      "Naive Bayes": 0.85,
+      "SVM": 0.91
+    },
+    "training_time": {
+      "Random Forest": 45.2,
+      "Logistic Regression": 12.8,
+      "Decision Tree": 8.3,
+      "XGBoost": 67.4,
+      "Naive Bayes": 5.1,
+      "SVM": 23.6
+    },
+    "prediction_time": {
+      "Random Forest": 0.03,
+      "Logistic Regression": 0.01,
+      "Decision Tree": 0.005,
+      "XGBoost": 0.08,
+      "Naive Bayes": 0.002,
+      "SVM": 0.015
+    }
+  },
+  "timestamp": "2025-06-22T09:09:59.993882"
+}
